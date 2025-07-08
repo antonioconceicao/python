@@ -1,5 +1,5 @@
-n1 = int (input('Digite a largura de uma parede '))
-n2 = int (input('Digite a altura da parede '))
+n1 = float (input('Digite a largura de uma parede '))
+n2 = float (input('Digite a altura da parede '))
 tinta = 2
 total = n2 * n1
 parede = total / tinta
