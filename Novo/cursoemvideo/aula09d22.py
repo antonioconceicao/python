@@ -4,7 +4,7 @@
 # Quantas letras ao todo (sem considerar espaços)
 # Quantas letras tem o primeiro nome.
 
-n1 = input ('Digite o seu nome completo ')
+n1 = input ('Digite o seu nome completo ').strip()
 
 grande = n1.upper()
 pequeno = n1.lower()
